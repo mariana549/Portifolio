@@ -1,0 +1,35 @@
+.shinning-3 {  
+  background:
+    linear-gradient(-45deg,#0000 33%,rgba(255,204,135,0.6),#0000 66%) right/300% 100% no-repeat
+    #000;
+  -webkit-background-clip:text;
+  background-clip:text;
+  transition:0s;
+}
+.shinning-3:hover {  
+  background-position:left;
+  transition:0.8s;
+ }
+
+ .shinning-2 {    
+  background:
+    linear-gradient(0deg,#0000 33%,rgba(255,204,135,0.6) ,#0000 66%) bottom/100% 300% no-repeat
+    #000;
+  -webkit-background-clip:text;
+  background-clip:text;
+  transition:0.8s;
+}
+.shinning-2:hover {  
+  background-position:top;
+}
+
+.div1 {
+  font-weight: bold;
+  color:#0000;
+  display:inline-block;
+  vertical-align: middle;
+  font-size:40px;
+  font-family:sans-serif;
+  margin:25px;
+  cursor:pointer;
+}
