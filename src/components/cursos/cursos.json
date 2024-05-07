@@ -1,0 +1,58 @@
+{
+   "cursos": {
+      "Dev Quest": {
+         "descricao": "DevQuest Dev em Dobro é um curso online de desenvolvimento web que ensina as principais tecnologias e ferramentas para criar sites e aplicativos incríveis. O curso é oferecido pela Dev em Dobro, uma plataforma de ensino que tem como objetivo formar desenvolvedores completos e preparados para o mercado.",
+         "objetivo": "O objetivo do curso é capacitar os alunos a desenvolverem projetos web completos, desde a concepção até a publicação. O curso também visa desenvolver habilidades como criatividade, lógica, comunicação e trabalho em equipe.",
+         "Conteúdo": {
+            "descricao": "O conteúdo do curso é dividido em duas áreas:",
+            "areas": [
+               {
+                  "Front-end": "o lado do cliente, responsável pela interface e interação com o usuário.",
+                  "Back-end": "o lado do servidor, responsável pela lógica e persistência dos dados."
+               }
+            ],
+            "extras": "Além disso, o curso também oferece um módulo de marketing pessoal, onde os alunos aprendem a se apresentar e se posicionar no mercado."
+         },
+         "certificados": {
+            "descricao": "Ao final do curso, os alunos que concluírem todos os módulos e desafios receberão um certificado de conclusão emitido pela Dev em Dobro. O certificado é um reconhecimento da dedicação e do aprendizado dos alunos.",
+            "certificado": [
+               "",
+               ""
+            ]
+         },
+         "tempo": {
+            "inicio": "outubro de 2023",
+            "termino": ""
+         }
+      },
+      "Curso em Video HTML5 e CSS3": {
+         "descricao": "Este é um curso online e gratuito de HTML5 e CSS3, as principais linguagens para criar sites na web. O curso é ministrado pelo professor Gustavo Guanabara, um dos maiores nomes da educação em tecnologia no Brasil. ",
+         "objetivo": "O curso tem como objetivo ensinar os fundamentos e as novidades do HTML5 e do CSS3, bem como mostrar como criar projetos completos e responsivos usando essas tecnologias.",
+         "Conteúdo": {
+            "descricao": "O curso é dividido em cinco módulos. Cada módulo aborda um aspecto diferente do desenvolvimento web, desde a história da internet até a incorporação de áudio e vídeo.",
+            "areas": [
+               {
+                  "Front-end": "o lado do cliente, responsável pela interface e interação com o usuário."
+               }
+            ],
+            "extras": ""
+         },
+         "certificados": {
+            "descricao": "Ao final de cada modulo os alunos pagam um valor para terem os certificado, e feito um teste de conhecimento e com a nota final se for acima de 70% o aluno podera ter o certificado referente ao modulo.",
+            "certificado": [
+               {
+                  "modulo 1": "",
+                  "modulo 2": "",
+                  "modulo 3": "",
+                  "modulo 4": "",
+                  "modulo 5": "Ainda saindo conteudo do modulo 5..."
+               }
+            ]
+         },
+         "tempo": {
+            "inicio": "janeiro de 2023",
+            "termino": ""
+         }
+      }
+   }
+}
