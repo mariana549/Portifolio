@@ -10,13 +10,15 @@ function Main({ repos }) {
         <Container>
           <div className="flex gap-4 justify-between items-center">
             <div>
+              <p className="text-3xl ">Olá, eu sou a</p>
               <a href="https://git.io/typing-svg">
                 <img
-                  src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=48&pause=1000&color=000000&background=80808000&vCenter=true&random=false&width=800&height=70&lines=Ol%C3%A1+sou+Mariana+Ant%C3%B4nia"
+                  src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=60&pause=1000&color=EC4899&background=80808000&vCenter=true&random=false&width=800&height=70&lines=Mariana+Ant%C3%B4nia"
                   alt="Typing SVG"
+                  className="py-4"
                 />
               </a>
-              <p className="text-3xl font-semibold div1 shinning-3">Desenvolvedora Frontend</p>
+              <p className="text-4xl font-semibold div1 shinning-3">Desenvolvedora Frontend</p>
             </div>
             <img src={image1} alt="foto mariana"  className="w-[45%] rounded-full border-4 border-pink-400" />
           </div>
