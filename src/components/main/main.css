@@ -26,10 +26,9 @@
 .div1 {
   font-weight: bold;
   color:#0000;
-  display:inline-block;
   vertical-align: middle;
   font-size:40px;
   font-family:sans-serif;
-  margin:25px;
   cursor:pointer;
 }
+

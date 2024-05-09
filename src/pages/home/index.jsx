@@ -1,11 +1,11 @@
 import Header from "../../components/header"
-import Main from "../../components/main"
+import GetData from "../../components/getdata"
 
 function Home() {
    return (
       <>
          <Header />
-         <Main />
+         <GetData />
       </>
    )
 }
