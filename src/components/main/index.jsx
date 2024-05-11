@@ -10,6 +10,8 @@ import git from '../../assets/git.png'
 import figma from '../../assets/figma.png'
 
 function Main({ repos }) {
+  const repositorios = ["Quest-React-Avancado", "projeto-github-api", "intro-component-with-signup-form-master", "rick-and-morty", "lista-imagens-pinturas", "gerador-de-conselhos", "codolandia-loki", "codelandia-portifolio", "landing-page-grid", "cordel-moderno", "projeto-android","projeto-login"];
+
   return (
     <main className="">
       <section className="bg-white  flex flex-col justify-center ">
@@ -56,7 +58,9 @@ function Main({ repos }) {
           <div className="flex flex-col items-center p-12 gap-4">
             <h1 className="text-5xl shinning-2 div1 mb-4">Projetos</h1>
             <ul className="flex flex-wrap gap-1">
-              {repos.map((repo, i) => (
+              {repos
+              .filter(e => (repositorios.includes(e.name)))
+              .map((repo, i) => (
                 <Projetos
                   key={i}
                   name={repo.name}
@@ -72,7 +76,8 @@ function Main({ repos }) {
                   description={repo.description}
                   created={repo.created_at}
                 />
-              ))}
+              ))
+            }
             </ul>
           </div>
         </Container>
