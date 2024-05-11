@@ -40,9 +40,9 @@ function Main({ repos }) {
          </div>
          <div className="flex flex-col items-center p-12 gap-4">
             <h2 className="text-4xl shinning-2 div1 mb-4">Tecnologias</h2>
-            <ul className="flex flex-wrap gap-2">
+            <ul className="flex flex-wrap gap-2 justify-center">
               <li className="p-3 bg-black text-pink-100 font-medium text-xl rounded text-center"><img src={js} alt="logo" className="w-40 "/> JavaScript</li>
-              <li className="p-3 bg-black text-pink-100 font-medium text-xl rounded text-center"><img src={html} alt="logo" className="w-40"/> HtML 5</li>
+              <li className="p-3 bg-black text-pink-100 font-medium text-xl rounded text-center"><img src={html} alt="logo" className="w-40"/> HTML 5</li>
               <li className="p-3 bg-black text-pink-100 font-medium text-xl rounded text-center"><img src={css} alt="logo" className="w-40"/> CSS 3</li>
               <li className="p-3 bg-black text-pink-100 font-medium text-xl rounded text-center"><img src={react} alt="logo" className="w-40"/> React</li>
               <li className="p-3 bg-black text-pink-100 font-medium text-xl rounded text-center"><img src={figma} alt="logo" className="w-40"/> Figma</li>
