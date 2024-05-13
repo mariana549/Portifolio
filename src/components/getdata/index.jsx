@@ -1,6 +1,7 @@
 import axios from "axios"
 import { useEffect, useState } from "react"
 import Main from "../main"
+import AppProvider from "../../Context/provider"
 
 function GetData() {
    const [getRepos, setRepos] = useState([])
@@ -13,9 +14,7 @@ function GetData() {
          const reposResponse = await axios.get(`${reposUrl}`)
          const data = reposResponse.data
 
-         console.log(data)
-
-         setRepos(data)
+         setRepos(data) 
       } catch (error) {
          `Erro fetching GitHub: ${error.message}`
       }
@@ -24,9 +23,9 @@ function GetData() {
    useEffect(() => { getAxios() }, [])
 
    return (
-      <>
-         <Main repos={getRepos}/>
-      </>
+      <AppProvider value={{ repositorios: getRepos}}>
+         <Main />
+      </AppProvider>
    )
 }
 
