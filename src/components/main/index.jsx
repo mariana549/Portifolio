@@ -2,7 +2,7 @@ import Container from "../container";
 import image1 from "../../assets/image1.jpg";
 import "../main/main.css";
 import SobreMim from "./sobreMim";
-import Projetos from "./projetos/projetoList";
+import Projetos from "./projetos";
 
 function Main({ repos }) {
   const repositorios = ["Quest-React-Avancado", "projeto-github-api", "intro-component-with-signup-form-master", "rick-and-morty", "lista-imagens-pinturas", "gerador-de-conselhos", "codolandia-loki", "codelandia-portifolio", "landing-page-grid", "cordel-moderno", "projeto-android", "projeto-login"];
