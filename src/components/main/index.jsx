@@ -46,9 +46,9 @@ function Main({ repos }) {
               <li className="p-3 bg-black text-pink-100 font-medium text-xl rounded-2xl flex items-center"><img src={js} alt="logo" className="w-36 rounded-2xl"/></li>
               <li className="p-3 bg-black text-pink-100 font-medium text-xl rounded-2xl flex items-center"><img src={html} alt="logo" className="w-40"/></li>
               <li className="p-3 bg-black text-pink-100 font-medium text-xl rounded-2xl flex items-center"><img src={css} alt="logo" className="w-40"/></li>
-              <li className="p-3 bg-black text-pink-100 font-medium text-xl rounded-2xl flex items-center"><img src={react} alt="logo" className="w-40"/></li>
-              <li className="p-3 bg-black text-pink-100 font-medium text-xl rounded-2xl flex items-center"><img src={figma} alt="logo" className="w-36"/></li>
-              <li className="p-3 bg-black text-pink-100 font-medium text-xl rounded-2xl flex items-center"><img src={git} alt="logo" className="w-40"/></li>
+              <li className="py-3 pr-4 bg-black text-pink-100 font-medium text-xl rounded-2xl flex items-center"><img src={react} alt="logo" className="w-40"/></li>
+              <li className="p-3 bg-black text-pink-100 font-medium text-xl rounded-2xl flex items-center"><img src={figma} alt="logo" className="w-32"/></li>
+              <li className="p-3 bg-black text-pink-100 font-medium text-xl rounded-2xl flex items-center"><img src={git} alt="logo" className="w-36"/></li>
             </ul>  
          </div>
          </Container>
