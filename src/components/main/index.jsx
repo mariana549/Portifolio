@@ -6,18 +6,17 @@ import Projetos from "./projetos";
 import { useContext, useEffect, useRef, useState } from "react";
 import Context from "../../Context/context";
 import { motion } from "framer-motion";
+import { projetos } from './projetos/projetos.json'
 
 function Main() {
   const { repositorios, carregando } = useContext(Context)
   const carossel = useRef()
-  const [Width, setWidth] =useState(0)
-  
+  const [Width, setWidth] = useState(0)
+
   useEffect(() => {
     setWidth(carossel.current?.scrollWidth - carossel.current?.offsetWidth)
-    console.log(carossel.current?.scrollWidth - carossel.current?.offsetWidth, "atualixi")
   })
 
-  const FiltroRepositorios = ["Quest-React-Avancado", "projeto-github-api", "intro-component-with-signup-form-master", "rick-and-morty", "lista-imagens-pinturas", "gerador-de-conselhos", "codolandia-loki", "codelandia-portifolio", "landing-page-grid", "cordel-moderno", "projeto-android", "projeto-login"];
 
   return (
     <main className="">
@@ -53,18 +52,19 @@ function Main() {
               className="flex items-center gap-3 p-2 cursor-grab"
               whileTap={{ cursor: "grabbing" }}
               drag="x"
-              dragConstraints={{left: -Width, right: Width}}
+              dragConstraints={{ left: -Width, right: Width }}
             >
               {carregando ?
                 <div className="text-pink-500 text-2xl font-bold border-2 p-2">Carregando....</div>
                 : repositorios
-                  .filter(e => (FiltroRepositorios.includes(e.name)))
+                  .filter(e => (projetos.map(element => element.nome).includes(e.name)))
                   .map((repo, i) => (
                     <Projetos
                       key={i}
                       name={repo.name}
                       homepage={repo.homepage}
                       deploy={repo.html_url}
+                      linguagem={repo.language}
                     />
                   ))
               }
