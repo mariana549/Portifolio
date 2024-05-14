@@ -3,30 +3,21 @@ import image1 from "../../assets/image1.jpg";
 import "../main/main.css";
 import SobreMim from "./sobreMim";
 import Projetos from "./projetos";
-import { useContext } from "react";
+import { useContext, useEffect, useRef, useState } from "react";
 import Context from "../../Context/context";
+import { motion } from "framer-motion";
 
 function Main() {
   const { repositorios, carregando } = useContext(Context)
+  const carossel = useRef()
+  const [Width, setWidth] =useState(0)
+  
+  useEffect(() => {
+    setWidth(carossel.current?.scrollWidth - carossel.current?.offsetWidth)
+    console.log(carossel.current?.scrollWidth - carossel.current?.offsetWidth, "atualixi")
+  })
 
   const FiltroRepositorios = ["Quest-React-Avancado", "projeto-github-api", "intro-component-with-signup-form-master", "rick-and-morty", "lista-imagens-pinturas", "gerador-de-conselhos", "codolandia-loki", "codelandia-portifolio", "landing-page-grid", "cordel-moderno", "projeto-android", "projeto-login"];
-
-  let index = 0;
-
-  const handleLeftButton = (e) => {
-    // if (index === 0) {
-    //   let re = e
-    //   index = e++
-    //   console.log("e.length", re.length)
-    //   for (let i = 0; i < e.length; i++) {
-    //     console.log("eita")
-    //   }
-    // }
-  }
-
-  const handleRightButton = (e) => {
-
-  }
 
   return (
     <main className="">
@@ -53,9 +44,17 @@ function Main() {
 
       <section className="min-h-[500px]">
         <Container>
-          <div className="flex flex-col items-center p-12 gap-4">
+          <div
+            className="flex flex-col items-center p-12 gap-4 w-full overflow-hidden"
+            ref={carossel}
+          >
             <h1 className="text-5xl text-pink-50 shinning-2 div1 mb-4">Projetos</h1>
-            <ul className="flex justify-center gap-1 ">
+            <motion.ul
+              className="flex items-center gap-3 p-2 cursor-grab"
+              whileTap={{ cursor: "grabbing" }}
+              drag="x"
+              dragConstraints={{left: -Width, right: Width}}
+            >
               {carregando ?
                 <div className="text-pink-500 text-2xl font-bold border-2 p-2">Carregando....</div>
                 : repositorios
@@ -66,26 +65,10 @@ function Main() {
                       name={repo.name}
                       homepage={repo.homepage}
                       deploy={repo.html_url}
-                      handleLeftButton={handleLeftButton(i)}
-                      handleRightButton={handleRightButton(i)}
                     />
                   ))
               }
-            </ul>
-            <div className="flex justify-center gap-4 ">
-              <button
-                type="button"
-                className="text-white text-xl"
-                onClick={handleLeftButton() }> 
-                seta esquerda
-              </button>
-              <button
-                type="button"
-                className="text-white text-xl"
-                onClick={handleRightButton}>
-                seta direita
-              </button>
-            </div>
+            </motion.ul>
           </div>
         </Container>
       </section>
