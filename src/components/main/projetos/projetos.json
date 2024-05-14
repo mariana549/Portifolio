@@ -1,56 +1,54 @@
 {
    "projetos": {
-      "Dev Quest": [
-         {
-            "nome": "gerador de conselhos",
-            "descricao": "",
-            "images": [
-               "",
-               "",
-               "",
-               ""
-            ]
-         },
-         {
-            "nome": "leyout-do-youtube",
-            "descricao": "",
-            "images": [
-               "",
-               "",
-               "",
-               ""
-            ]
-         },
-         {
-            "nome": "leyout-do-youtube",
-            "descricao": "",
-            "images": [
-               "",
-               "",
-               "",
-               ""
-            ]
-         },
-         {
-            "nome": "leyout-do-youtube",
-            "descricao": "",
-            "images": [
-               "",
-               "",
-               "",
-               ""
-            ]
-         },
-         {
-            "nome": "leyout-do-youtube",
-            "descricao": "",
-            "images": [
-               "",
-               "",
-               "",
-               ""
-            ]
-         }
-      ]
+      {
+         "nome": "gerador de conselhos",
+         "descricao": "",
+         "images": [
+            "",
+            "",
+            "",
+            ""
+         ]
+      },
+      {
+         "nome": "leyout-do-youtube",
+         "descricao": "",
+         "images": [
+            "",
+            "",
+            "",
+            ""
+         ]
+      },
+      {
+         "nome": "leyout-do-youtube",
+         "descricao": "",
+         "images": [
+            "",
+            "",
+            "",
+            ""
+         ]
+      },
+      {
+         "nome": "leyout-do-youtube",
+         "descricao": "",
+         "images": [
+            "",
+            "",
+            "",
+            ""
+         ]
+      },
+      {
+         "nome": "leyout-do-youtube",
+         "descricao": "",
+         "images": [
+            "",
+            "",
+            "",
+            ""
+         ]
+      }
    }
 }

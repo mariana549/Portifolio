@@ -7,9 +7,26 @@ import { useContext } from "react";
 import Context from "../../Context/context";
 
 function Main() {
-  const { repositorios } = useContext(Context)
+  const { repositorios, carregando } = useContext(Context)
 
   const FiltroRepositorios = ["Quest-React-Avancado", "projeto-github-api", "intro-component-with-signup-form-master", "rick-and-morty", "lista-imagens-pinturas", "gerador-de-conselhos", "codolandia-loki", "codelandia-portifolio", "landing-page-grid", "cordel-moderno", "projeto-android", "projeto-login"];
+
+  let index = 0;
+
+  const handleLeftButton = (e) => {
+    // if (index === 0) {
+    //   let re = e
+    //   index = e++
+    //   console.log("e.length", re.length)
+    //   for (let i = 0; i < e.length; i++) {
+    //     console.log("eita")
+    //   }
+    // }
+  }
+
+  const handleRightButton = (e) => {
+
+  }
 
   return (
     <main className="">
@@ -38,19 +55,37 @@ function Main() {
         <Container>
           <div className="flex flex-col items-center p-12 gap-4">
             <h1 className="text-5xl text-pink-50 shinning-2 div1 mb-4">Projetos</h1>
-            <ul className="flex flex-wrap justify-center gap-1">
-              {repositorios
-                .filter(e => (FiltroRepositorios.includes(e.name)))
-                .map((repo, i) => (
-                  <Projetos
-                    key={i}
-                    name={repo.name}
-                    homepage={repo.homepage}
-                    created={repo.created_at}
-                  />
-                ))
+            <ul className="flex justify-center gap-1 ">
+              {carregando ?
+                <div className="text-pink-500 text-2xl font-bold border-2 p-2">Carregando....</div>
+                : repositorios
+                  .filter(e => (FiltroRepositorios.includes(e.name)))
+                  .map((repo, i) => (
+                    <Projetos
+                      key={i}
+                      name={repo.name}
+                      homepage={repo.homepage}
+                      deploy={repo.html_url}
+                      handleLeftButton={handleLeftButton(i)}
+                      handleRightButton={handleRightButton(i)}
+                    />
+                  ))
               }
             </ul>
+            <div className="flex justify-center gap-4 ">
+              <button
+                type="button"
+                className="text-white text-xl"
+                onClick={handleLeftButton() }> 
+                seta esquerda
+              </button>
+              <button
+                type="button"
+                className="text-white text-xl"
+                onClick={handleRightButton}>
+                seta direita
+              </button>
+            </div>
           </div>
         </Container>
       </section>
