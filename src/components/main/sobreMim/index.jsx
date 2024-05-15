@@ -1,4 +1,5 @@
 import Container from '../../container'
+
 import react from '../../../assets/biblioteca.png'
 import css from '../../../assets/css-3.png'
 import html from '../../../assets/html-5.png'
@@ -6,9 +7,11 @@ import js from '../../../assets/js.png'
 import git from '../../../assets/git.png'
 import figma from '../../../assets/figma.png'
 
+import { handleClick } from '../../pegarId'
+
 function SobreMim() {
    return (
-      <section className="bg-pink-400 min-h-[500px]">
+      <section className="bg-pink-400 min-h-[500px]" id='sobremim' onClick={handleClick}>
       <Container>
       <div className="flex flex-col items-center py-12 gap-4">
          <h1 className="text-5xl shinning-2 div1 mb-4">Sobre mim</h1>

@@ -14,6 +14,8 @@ import whats from "../../assets/whatsapp.png"
 import In from "../../assets/linkedin.png"
 import mari2 from "../../assets/mari2.jpg"
 
+import { handleClick } from "../pegarId";
+
 function Main() {
   const { repositorios, carregando } = useContext(Context)
   const carossel = useRef()
@@ -23,9 +25,8 @@ function Main() {
     setWidth(carossel.current?.scrollWidth - carossel.current?.offsetWidth)
   })
 
-
   return (
-    <main className="">
+    <main>
       <section className="bg-pink-100  flex flex-col justify-center ">
         <Container>
           <div className="flex gap-4 justify-between items-center">
@@ -47,13 +48,13 @@ function Main() {
 
       <SobreMim />
 
-      <section className="min-h-[500px]">
+      <section className="min-h-[500px]" id="projeto" onClick={handleClick}>
         <Container>
           <div
             className="flex flex-col items-center p-12 gap-4 w-full overflow-hidden"
             ref={carossel}
           >
-            <h1 className="text-5xl text-pink-50 shinning-2 div1 mb-4">Projetos</h1>
+            <h1 className="text-5xl text-pink-50 shinning-2 div1 mb-4 pointer-events-none" id="projetos">Projetos</h1>
             <motion.ul
               className="flex items-center p-2 cursor-grab"
               whileTap={{ cursor: "grabbing" }}
@@ -76,11 +77,11 @@ function Main() {
               }
             </motion.ul>
           </div>
-          <aside className="py-9">
-            <h1 className="text-pink-50 text-5xl font-bold pb-9 text-center">Contato</h1>
+          <aside className="py-9" id="contato" onClick={handleClick}>
+            <h1 className="text-pink-50 text-5xl font-bold pb-9 text-center pointer-events-none">Contato</h1>
             <div className="flex items-center justify-between">
               <aside className="flex flex-col items-start">
-                <p className="text-pink-500 text-4xl font-medium">Entre em contato comigo por: </p>
+                <p className="text-pink-500 text-4xl font-medium pointer-events-none">Entre em contato comigo por: </p>
                 <ul className="py-4 flex gap-5">
                   <li className="flex items-center gap-2 hover:border p-2 rounded">
                     <img src={In} alt="" className="w-5 h-5" />
