@@ -41,16 +41,6 @@
          }
       },
       {
-         "nome": "lista-imagens-pinturas",
-         "descricao": "",
-         "images": {
-            "image1": "https://raw.githubusercontent.com/mariana549/lista-imagens-pinturas/main/imagens/capturas/computador.png",
-            "image2": "https://raw.githubusercontent.com/mariana549/lista-imagens-pinturas/main/imagens/capturas/tablet.png",
-            "image3": "https://raw.githubusercontent.com/mariana549/lista-imagens-pinturas/main/imagens/capturas/celular.png",
-            "image4": ""
-         } 
-      },
-      {
          "nome": "gerador-de-conselhos",
          "descricao": "",
          "images": {

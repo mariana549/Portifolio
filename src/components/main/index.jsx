@@ -1,12 +1,18 @@
-import Container from "../container";
-import image1 from "../../assets/image1.jpg";
 import "../main/main.css";
-import SobreMim from "./sobreMim";
-import Projetos from "./projetos";
+
 import { useContext, useEffect, useRef, useState } from "react";
 import Context from "../../Context/context";
 import { motion } from "framer-motion";
+
+import Container from "../container";
+import SobreMim from "./sobreMim";
+import Projetos from "./projetos";
 import { projetos } from './projetos/projetos.json'
+
+import mari1 from "../../assets/mari1.jpg";
+import whats from "../../assets/whatsapp.png"
+import In from "../../assets/linkedin.png"
+import mari2 from "../../assets/mari2.jpg"
 
 function Main() {
   const { repositorios, carregando } = useContext(Context)
@@ -34,7 +40,7 @@ function Main() {
               </a>
               <p className="text-4xl font-semibold div1 shinning-3">Desenvolvedora Frontend</p>
             </div>
-            <img src={image1} alt="foto mariana" className="w-[38%] rounded-full border-4 border-pink-400" />
+            <img src={mari1} alt="foto mariana" className="w-[38%] rounded-full border-4 border-pink-400" />
           </div>
         </Container>
       </section>
@@ -49,7 +55,7 @@ function Main() {
           >
             <h1 className="text-5xl text-pink-50 shinning-2 div1 mb-4">Projetos</h1>
             <motion.ul
-              className="flex items-center gap-3 p-2 cursor-grab"
+              className="flex items-center p-2 cursor-grab"
               whileTap={{ cursor: "grabbing" }}
               drag="x"
               dragConstraints={{ left: -Width, right: Width }}
@@ -70,6 +76,25 @@ function Main() {
               }
             </motion.ul>
           </div>
+          <aside className="py-9">
+            <h1 className="text-pink-50 text-5xl font-bold pb-9 text-center">Contato</h1>
+            <div className="flex items-center justify-between">
+              <aside className="flex flex-col items-start">
+                <p className="text-pink-500 text-4xl font-medium">Entre em contato comigo por: </p>
+                <ul className="py-4 flex gap-5">
+                  <li className="flex items-center gap-2 hover:border p-2 rounded">
+                    <img src={In} alt="" className="w-5 h-5" />
+                    <a href="http://www.linkedin.com/in/mariana-a-6694b5245/" target="_blank" rel="noopener noreferrer" className="text-pink-100 text-lg font-bold">Linkedin</a>
+                  </li>
+                  <li className="flex items-center gap-2 hover:border p-2 rounded">
+                    <img src={whats} alt="" className="w-5 h-5" />
+                    <a href="https://contate.me/marianaantonia" target="_blank" rel="noopener noreferrer" className="text-pink-100 text-lg font-bold">WhatsApp</a>
+                  </li>
+                </ul>
+              </aside>
+              <img src={mari2} alt="mariana imagem2" className="w-80 rounded-3xl border-4 border-pink-500" />
+            </div>
+          </aside>
         </Container>
       </section>
     </main>
