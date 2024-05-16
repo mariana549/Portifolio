@@ -27,7 +27,7 @@ function Main() {
 
   return (
     <main>
-      <section className="bg-pink-100  flex flex-col justify-center ">
+      <section className=" flex flex-col justify-center ">
         <Container>
           <div className="flex gap-4 justify-between items-center">
             <div>
