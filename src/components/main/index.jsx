@@ -9,10 +9,10 @@ import SobreMim from "./sobreMim";
 import Projetos from "./projetos";
 import { projetos } from './projetos/projetos.json'
 
-import mari1 from "../../assets/mari1.jpg";
-import whats from "../../assets/whatsapp.png"
-import In from "../../assets/linkedin.png"
-import mari2 from "../../assets/mari2.jpg"
+import mari1 from "../../assets/images/mari1.jpg";
+import whats from "../../assets/images/whatsapp.png"
+import In from "../../assets/images/linkedin.png"
+import mari2 from "../../assets/images/mari2.jpg"
 
 import { handleClick } from "../pegarId";
 

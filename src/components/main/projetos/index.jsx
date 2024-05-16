@@ -1,8 +1,8 @@
-import javascript  from '../../../assets/js.png'
-import html  from '../../../assets/html-5.png'
-import css from '../../../assets/css-3.png'
+import javascript  from '../../../assets/images/js.png'
+import html  from '../../../assets/images/html-5.png'
+import css from '../../../assets/images/css-3.png'
 
-import { PropTypes } from "prop-types"
+import PropTypes  from "prop-types"
 
 function Projetos({ name, homepage, deploy, linguagem }) {
    const imgs = {
@@ -24,7 +24,7 @@ function Projetos({ name, homepage, deploy, linguagem }) {
                className="bg-white w-[400px] h-[300px] rounded-lg border border-purple-600"
                style={{ backgroundSize: "cover" }}
                scrolling="no"
-               sandbox="allow-scripts allow-same-origin"
+               sandbox="allow-scripts allow-same-origin allow-presentation"
             />
             <h1 className="text-xl text-purple-400 font-semibold pb-3 font-poppins">{name}</h1>
             <hr className="border border-purple-600 w-full" />
@@ -42,10 +42,10 @@ function Projetos({ name, homepage, deploy, linguagem }) {
 }
 
 Projetos.propTypes = {
-   name: PropTypes.string.isRiquired,
-   homepage: PropTypes.string.isRiquired,
-   deploy: PropTypes.any.isRiquired,
-   linguagem: PropTypes.string.isRiquired,
+   name: PropTypes.string.isRequired,
+   homepage: PropTypes.string.isRequired,
+   deploy: PropTypes.any.isRequired,
+   linguagem: PropTypes.string.isRequired,
 }
 export default Projetos
 

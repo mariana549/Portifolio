@@ -1,8 +1,8 @@
 import Container from "../container"
 import NavBar from "../navBar"
 
-import logo from "../../assets/M.png"
-import contato from "../../assets/contato.png"
+import logo from "../../assets/images/M.png"
+import contato from "../../assets/images/contato.png"
 
 
 function Header() {

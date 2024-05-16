@@ -1,11 +1,11 @@
 import Container from '../../container'
 
-import react from '../../../assets/biblioteca.png'
-import css from '../../../assets/css-3.png'
-import html from '../../../assets/html-5.png'
-import js from '../../../assets/js.png'
-import git from '../../../assets/git.png'
-import figma from '../../../assets/figma.png'
+import react from '../../../assets/images/biblioteca.png'
+import css from '../../../assets/images/css-3.png'
+import html from '../../../assets/images/html-5.png'
+import js from '../../../assets/images/js.png'
+import git from '../../../assets/images/git.png'
+import figma from '../../../assets/images/figma.png'
 
 import { handleClick } from '../../pegarId'
 

@@ -1,8 +1,8 @@
 import Container from "../container"
 import NavBar from "../navBar"
 
-import logo2 from "../../assets/M2.png"
-import home from "../../assets/home.png"
+import logo2 from "../../assets/images/M2.png"
+import home from "../../assets/images/home.png"
 
 function Footer() {
    

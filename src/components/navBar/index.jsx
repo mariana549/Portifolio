@@ -1,7 +1,7 @@
-import user from "../../assets/user.png"
-import projetos from "../../assets/siga-a-pasta.png"
+import user from "../../assets/images/user.png"
+import projetos from "../../assets/images/siga-a-pasta.png"
 
-import { propTypes } from "prop-types"
+import PropTypes from "prop-types"
 
 function NavBar({children}) {
    return (
@@ -36,7 +36,7 @@ function NavBar({children}) {
 }
 
 NavBar.propTypes = {
-   children: propTypes.any.isRiquired
+   children: PropTypes.object.isRequired,
 }
 
 export default NavBar
