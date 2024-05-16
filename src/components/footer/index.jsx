@@ -5,6 +5,11 @@ import logo2 from "../../assets/M2.png"
 import home from "../../assets/home.png"
 
 function Footer() {
+   
+   const handleSubir = () => {
+      window.scrollTo(0,0)
+   }
+
    return (
       <footer className="mt-20 bg-pink-500">
          <Container>
@@ -25,9 +30,7 @@ function Footer() {
                         alt="logo home"
                         className="w-5"
                      />
-                     <a href="#">
-                        Subir
-                     </a>
+                     <button type="button" onClick={handleSubir}>Subir</button>
                   </li>
                </NavBar>
             </div>

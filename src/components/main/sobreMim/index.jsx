@@ -22,12 +22,12 @@ function SobreMim() {
       <div className="flex flex-col items-center py-12 gap-4">
          <h2 className="text-4xl shinning-2 div1 mb-4">Tecnologias</h2>
          <ul className="flex flex-wrap gap-2 justify-center">
-           <li className="p-3 bg-black border-2 border-purple-600 text-pink-100 font-medium text-xl rounded-2xl flex items-center"><img src={js} alt="logo" className="w-32 rounded-2xl"/></li>
-           <li className="p-3 bg-black border-2 border-purple-600 text-pink-100 font-medium text-xl rounded-2xl flex items-center"><img src={html} alt="logo" className="w-32"/></li>
-           <li className="p-3 bg-black border-2 border-purple-600 text-pink-100 font-medium text-xl rounded-2xl flex items-center"><img src={css} alt="logo" className="w-32"/></li>
-           <li className="p-3 bg-black border-2 border-purple-600 text-pink-100 font-medium text-xl rounded-2xl flex items-center"><img src={react} alt="logo" className="w-32"/></li>
-           <li className="p-3 bg-black border-2 border-purple-600 text-pink-100 font-medium text-xl rounded-2xl flex items-center"><img src={figma} alt="logo" className="w-24"/></li>
-           <li className="p-3 bg-black border-2 border-purple-600 text-pink-100 font-medium text-xl rounded-2xl flex items-center"><img src={git} alt="logo" className="w-32"/></li>
+           <li className="p-3 bg-black border-2 border-purple-600 text-pink-100 font-medium text-xl rounded-2xl flex items-center"><img src={js} alt="logo" className="w-20 rounded-2xl"/></li>
+           <li className="p-3 bg-black border-2 border-purple-600 text-pink-100 font-medium text-xl rounded-2xl flex items-center"><img src={html} alt="logo" className="w-20"/></li>
+           <li className="p-3 bg-black border-2 border-purple-600 text-pink-100 font-medium text-xl rounded-2xl flex items-center"><img src={css} alt="logo" className="w-20"/></li>
+           <li className="p-3 bg-black border-2 border-purple-600 text-pink-100 font-medium text-xl rounded-2xl flex items-center"><img src={react} alt="logo" className="w-20"/></li>
+           <li className="p-3 bg-black border-2 border-purple-600 text-pink-100 font-medium text-xl rounded-2xl flex items-center"><img src={figma} alt="logo" className="w-20"/></li>
+           <li className="p-3 bg-black border-2 border-purple-600 text-pink-100 font-medium text-xl rounded-2xl flex items-center"><img src={git} alt="logo" className="w-20"/></li>
          </ul>  
       </div>
       </Container>
