@@ -1,8 +1,11 @@
+import { ThemeProvider } from './Context/themeProvider'
 import Home from './pages/home'
 
 function App() {
   return (
-    <Home />
+    <ThemeProvider>
+      <Home />
+    </ThemeProvider>
   )
 }
 

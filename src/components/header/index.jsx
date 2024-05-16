@@ -3,6 +3,7 @@ import NavBar from "../navBar"
 
 import logo from "../../assets/images/M.png"
 import contato from "../../assets/images/contato.png"
+import { ThemeTogglerButton } from "../../togglerButton/themeTogglerButton."
 
 
 function Header() {
@@ -21,6 +22,9 @@ function Header() {
                      <a href={`#contato`} className="font-poppins">
                         Contato
                      </a>
+                  </li>
+                  <li>
+                     <ThemeTogglerButton />
                   </li>
                </NavBar>
             </div>
