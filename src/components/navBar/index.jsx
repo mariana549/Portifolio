@@ -12,7 +12,7 @@ function NavBar({children}) {
                   alt="icone projetos"
                   className="w-5"
                />
-               <a href={`#projeto`}>
+               <a href={`#projeto`} className="font-poppins">
                   Projetos
                </a>
             </li>
@@ -23,7 +23,7 @@ function NavBar({children}) {
                   alt="user"
                   className="w-5"
                />
-               <a href={`#sobremim`}>
+               <a href={`#sobremim`} className="font-poppins">
                   Sobre mim
                </a>
             </li>

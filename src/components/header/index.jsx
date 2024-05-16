@@ -18,7 +18,7 @@ function Header() {
                         src={contato}
                         alt="contato"
                      />
-                     <a href={`#contato`}>
+                     <a href={`#contato`} className="font-poppins">
                         Contato
                      </a>
                   </li>

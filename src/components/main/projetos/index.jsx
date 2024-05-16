@@ -26,14 +26,14 @@ function Projetos({ name, homepage, deploy, linguagem }) {
                scrolling="no"
                sandbox="allow-scripts allow-same-origin"
             />
-            <h1 className="text-xl text-purple-400 font-semibold pb-3">{name}</h1>
+            <h1 className="text-xl text-purple-400 font-semibold pb-3 font-poppins">{name}</h1>
             <hr className="border border-purple-600 w-full" />
             <ul className="flex items-center justify-between w-full mt-4">
                <li className="list-none">
                   <img src={imgLiguagem} alt={linguagem} className="w-11 rounded-lg" />
                </li>
                <li className="list-none">
-                  <a href={homepage ? homepage : deploy} target="_blank" rel="noopener noreferrer" className="text-pink-50 p-2 bg-purple-400 rounded">Demo</a>
+                  <a href={homepage ? homepage : deploy} target="_blank" rel="noopener noreferrer" className="text-pink-50 p-2 bg-purple-400 rounded font-poppins">Demo</a>
                </li>
             </ul>
          </div>

@@ -31,7 +31,7 @@ function Main() {
         <Container>
           <div className="flex gap-4 justify-between items-center">
             <div>
-              <p className="text-3xl">Seja Bem vindo(a), eu sou a</p>
+              <p className="text-3xl font-poppins">Seja Bem vindo(a), eu sou a</p>
               <a href="https://git.io/typing-svg">
                 <img
                   src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=60&pause=1000&color=EC4899&background=80808000&vCenter=true&random=false&width=800&height=70&lines=Mariana+Ant%C3%B4nia"
@@ -39,7 +39,7 @@ function Main() {
                   className="py-4"
                 />
               </a>
-              <p className="text-4xl font-semibold div1 shinning-3">Desenvolvedora Frontend</p>
+              <p className="text-4xl font-semibold div1 shinning-3 font-poppins">Desenvolvedora Frontend</p>
             </div>
             <img src={mari1} alt="foto mariana" className="w-[38%] rounded-full border-4 border-pink-400" />
           </div>
@@ -54,7 +54,7 @@ function Main() {
             className="flex flex-col items-center p-12 gap-4 w-full overflow-hidden"
             ref={carossel}
           >
-            <h1 className="text-5xl text-pink-50 shinning-2 div1 mb-4 pointer-events-none" id="projetos">Projetos</h1>
+            <h1 className="text-5xl text-pink-50 shinning-2 div1 mb-4 pointer-events-none font-poppins" id="projetos">Projetos</h1>
             <motion.ul
               className="flex items-center p-2 cursor-grab"
               whileTap={{ cursor: "grabbing" }}
@@ -62,7 +62,7 @@ function Main() {
               dragConstraints={{ left: -Width, right: Width }}
             >
               {carregando ?
-                <div className="text-pink-500 text-2xl font-bold border-2 p-2">Carregando....</div>
+                <div className="text-pink-500 text-2xl font-bold border-2 p-2 font-poppins">Carregando....</div>
                 : repositorios
                   .filter(e => (projetos.map(element => element.nome).includes(e.name)))
                   .map((repo, i) => (
@@ -78,18 +78,18 @@ function Main() {
             </motion.ul>
           </div>
           <aside className="py-9" id="contato" onClick={handleClick}>
-            <h1 className="text-pink-50 text-5xl font-bold pb-9 text-center pointer-events-none">Contato</h1>
+            <h1 className="text-pink-50 text-5xl font-bold pb-9 text-center pointer-events-none font-poppins">Contato</h1>
             <div className="flex items-center justify-between">
               <aside className="flex flex-col items-start">
-                <p className="text-pink-500 text-4xl font-medium pointer-events-none">Entre em contato comigo por: </p>
+                <p className="text-pink-500 text-4xl font-medium pointer-events-none font-poppins">Entre em contato comigo por: </p>
                 <ul className="py-4 flex gap-5">
                   <li className="flex items-center gap-2 hover:border p-2 rounded">
                     <img src={In} alt="" className="w-5 h-5" />
-                    <a href="http://www.linkedin.com/in/mariana-a-6694b5245/" target="_blank" rel="noopener noreferrer" className="text-pink-100 text-lg font-bold">Linkedin</a>
+                    <a href="http://www.linkedin.com/in/mariana-a-6694b5245/" target="_blank" rel="noopener noreferrer" className="text-pink-100 text-lg font-bold font-poppins">Linkedin</a>
                   </li>
                   <li className="flex items-center gap-2 hover:border p-2 rounded">
                     <img src={whats} alt="" className="w-5 h-5" />
-                    <a href="https://contate.me/marianaantonia" target="_blank" rel="noopener noreferrer" className="text-pink-100 text-lg font-bold">WhatsApp</a>
+                    <a href="https://contate.me/marianaantonia" target="_blank" rel="noopener noreferrer" className="text-pink-100 text-lg font-bold font-poppins">WhatsApp</a>
                   </li>
                 </ul>
               </aside>

@@ -15,10 +15,10 @@ function Footer() {
          <Container>
             <div className="flex w-full justify-between items-center">
                <ul>
-                  <li className="flex gap-3 items-center">
+                  <li className="flex gap-2 items-center">
                      <img src={logo2} alt="logo" className="w-20" />
-                     <p className="text-pink-50 text-xl pointer-events-none font-semibold">
-                        Feito por Mariana Antonia
+                     <p className="text-pink-50 text-xl pointer-events-none font-poppins">
+                        Feito por <span className="font-bold">Mariana Antonia</span>
                      </p>
                   </li>
                </ul>
@@ -30,7 +30,7 @@ function Footer() {
                         alt="logo home"
                         className="w-5"
                      />
-                     <button type="button" onClick={handleSubir}>Subir</button>
+                     <button type="button" onClick={handleSubir} className="font-poppins">Subir</button>
                   </li>
                </NavBar>
             </div>
