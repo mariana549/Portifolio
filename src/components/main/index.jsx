@@ -51,7 +51,7 @@ function Main() {
                   Desenvolvedora Frontend
               </p>
             </div>
-            <img src={mari1} alt="foto mariana" className="w-[38%] rounded-full border-4 border-pink-400" />
+            <img src={mari1} alt="foto mariana" className="w-[38%] rounded-full border-4 border-pink-400 float-animation" />
           </div>
         </Container>
       </section>
