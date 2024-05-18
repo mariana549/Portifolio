@@ -4,11 +4,13 @@ export const themes = {
       color2: "#500724",
       bgInicio: "#fce7f3",
       bgSobreMim: "#F472B6",
+      bgProjetos: "#F5D0FE"
    },
    dark: {
       color: "#ffff",
-      color2: "#000",
-      bgInicio: "#7E22CE",
-      bgSobreMim: "#831843",
+      color2: "#f5add6",
+      bgInicio: "black",
+      bgSobreMim: "black",
+      bgProjetos: 'black'
    }
 }

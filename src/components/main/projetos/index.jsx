@@ -21,19 +21,19 @@ function Projetos({ name, homepage, deploy, linguagem }) {
             <iframe
                src={homepage}
                title={name}
-               className="bg-white w-[400px] h-[300px] rounded-lg border border-purple-600"
+               className="bg-white w-[400px] h-[300px] rounded-lg border-2 border-pink-500"
                style={{ backgroundSize: "cover" }}
                scrolling="no"
                sandbox="allow-scripts allow-same-origin allow-presentation"
             />
-            <h1 className="text-xl text-purple-400 font-semibold pb-3 font-poppins">{name}</h1>
-            <hr className="border border-purple-600 w-full" />
+            <h1 className="text-lg text-pink-500 font-semibold pb-3 font-poppins">{name}</h1>
+            <hr className="border border-pink-500 w-full" />
             <ul className="flex items-center justify-between w-full mt-4">
                <li className="list-none">
                   <img src={imgLiguagem} alt={linguagem} className="w-11 rounded-lg" />
                </li>
                <li className="list-none">
-                  <a href={homepage ? homepage : deploy} target="_blank" rel="noopener noreferrer" className="text-pink-50 p-2 bg-purple-400 rounded font-poppins">Demo</a>
+                  <a href={homepage ? homepage : deploy} target="_blank" rel="noopener noreferrer" className="text-pink-50 p-2 bg-pink-500 rounded font-poppins">Demo</a>
                </li>
             </ul>
          </div>
