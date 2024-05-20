@@ -1,104 +1,14 @@
 {
    "projetos": [
-      {
-         "nome": "Quest-React-Avancado",
-         "descricao": "",
-         "images": {
-            "image1": "",
-            "image2": "",
-            "image3": "",
-            "image4": ""
-         }
-      },
-      {
-         "nome": "projeto-github-api",
-         "descricao": "",
-         "images": {
-            "image1": "",
-            "image2": "",
-            "image3": "",
-            "image4": ""
-         }
-      },
-      {
-         "nome": "intro-component-with-signup-form-master",
-         "descricao": "",
-         "images": {
-            "image1": "",
-            "image2": "",
-            "image3": "",
-            "image4": ""
-         }
-      },
-      {
-         "nome": "rick-and-morty",
-         "descricao": "",
-         "images": {
-            "image1": "",
-            "image2": "",
-            "image3": "",
-            "image4": ""
-         }
-      },
-      {
-         "nome": "gerador-de-conselhos",
-         "descricao": "",
-         "images": {
-            "image1": "",
-            "image2": "",
-            "image3": "",
-            "image4": ""
-         }
-      },
-      {
-         "nome": "codolandia-loki",
-         "descricao": "",
-         "images": {
-            "image1": "",
-            "image2": "",
-            "image3": "",
-            "image4": ""
-         }
-      },
-      {
-         "nome": "codelandia-portifolio",
-         "descricao": "",
-         "images": {
-            "image1": "",
-            "image2": "",
-            "image3": "",
-            "image4": ""
-         }
-      },
-      {
-         "nome": "landing-page-grid",
-         "descricao": "",
-         "images": {
-            "image1": "",
-            "image2": "",
-            "image3": "",
-            "image4": ""
-         }
-      },
-      {
-         "nome": "cordel-moderno",
-         "descricao": "",
-         "images": {
-            "image1": "",
-            "image2": "",
-            "image3": "",
-            "image4": ""
-         }
-      },
-      {
-         "nome": "projeto-android",
-         "descricao": "",
-         "images": {
-            "image1": "",
-            "image2": "",
-            "image3": "",
-            "image4": ""
-         }
-      }
+         "Quest-React-Avancado",
+         "projeto-github-api",
+         "intro-component-with-signup-form-master", 
+         "rick-and-morty", 
+         "gerador-de-conselhos", 
+         "codolandia-loki", 
+         "codelandia-portifolio",
+         "landing-page-grid", 
+         "cordel-moderno", 
+         "projeto-android"
    ]
 }

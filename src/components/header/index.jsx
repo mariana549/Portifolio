@@ -26,8 +26,10 @@ function Header() {
                         alt="contato"
                         className="max-sm:w-4 max-lg:w-5 w-6"
                      />
-                     <a href={`#contato`} className="font-poppins">
-                        Contato
+                     <a 
+                        href={`#contato`} 
+                        className="font-poppins">
+                           Contato
                      </a>
                   </li>
                   <li>

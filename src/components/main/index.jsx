@@ -31,13 +31,14 @@ function Main() {
         className="max-sm:h-[500px] max-lg:h-[600px] flex flex-col justify-center"
         style={{ background: theme.bgInicio }}>
         <Container>
-          <div className="max-md:flex-col justify-between flex gap-4 items-center">
+          <div 
+            className="max-md:flex-col justify-between flex gap-4 items-center">
             <div>
-              <p 
+              <p
                 className="max-sm:text-xl max-lg:text-2xl text-3xl max-md:text-center
                 font-poppins"
                 style={{ color: theme.color }}>
-                  Seja Bem vindo(a), eu sou a
+                Seja Bem vindo(a), eu sou a
               </p>
               <a href="https://git.io/typing-svg">
                 <img
@@ -50,10 +51,13 @@ function Main() {
                 className="max-sm:text-2xl max-lg:text-3xl text-4xl max-md:text-center
                  font-semibold div1 shinning-3 font-poppins"
                 style={{ color: theme.color }}>
-                  Desenvolvedora Frontend
+                Desenvolvedora Frontend
               </p>
             </div>
-            <img src={mari1} alt="foto mariana" className="w-[38%] rounded-full border-4 border-pink-400 float-animation m-2" />
+            <img
+              src={mari1}
+              alt="foto mariana"
+              className="w-[38%] rounded-full border-4 border-pink-400 float-animation m-2" />
           </div>
         </Container>
       </section>
@@ -75,7 +79,7 @@ function Main() {
             shinning-2 div1 mb-5 font-poppins"
             id="projetos"
             style={{ color: theme.color }}>
-             Projetos
+            Projetos
           </h1>
           <motion.ul
             className="flex items-center p-2 cursor-grab"
@@ -84,9 +88,12 @@ function Main() {
             dragConstraints={{ left: -Width, right: Width }}
           >
             {carregando ?
-              <div className="text-pink-500 max-md:text-lg max-lg:text-xl text-2xl font-bold border-2 p-2 font-poppins">Carregando....</div>
+              <div
+                className="text-pink-500 max-md:text-lg max-lg:text-xl text-2xl font-bold border-2 p-2 font-poppins">
+                Carregando....
+              </div>
               : repositorios
-                .filter(e => (projetos.map(element => element.nome).includes(e.name)))
+                .filter(e => (projetos.map(element => element).includes(e.name)))
                 .map((repo, i) => (
                   <Projetos
                     key={i}

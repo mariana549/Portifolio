@@ -18,21 +18,28 @@ function Footer() {
    return (
       <footer className="bg-black">
          <Container>
-            <aside className="py-12" id="contato" onClick={handleClick}>
-               <h1 className="max-sm:text-2xl max-lg:text-3xl text-4xl 
-            text-pink-500 font-bold pb-9 text-center font-poppins">
+            <aside 
+               className="py-12" 
+               id="contato" 
+               onClick={handleClick}>
+               <h1 
+                  className="max-sm:text-2xl max-lg:text-3xl text-4xl 
+               text-pink-500 font-bold pb-9 text-center font-poppins">
                   Contato
                </h1>
-               <div className="max-md:flex-col 
-                              flex items-center justify-between gap-2">
-                  <aside className="max-md:items-center items-start
-                                    flex flex-col">
+               <div 
+                  className="max-md:flex-col 
+                  flex items-center justify-between gap-2">
+                  <aside 
+                     className="max-md:items-center items-start
+                     flex flex-col">
                      <p className="max-sm:text-lg max-lg:text-xl text-2xl
-                                 text-pink-500 font-medium pointer-events-none font-poppins">
+                     text-pink-500 font-medium pointer-events-none font-poppins">
                         Entre em contato comigo por:
                      </p>
                      <ul className="py-4 flex gap-5">
-                        <li className="flex items-center gap-2 hover:border p-2 rounded">
+                        <li 
+                           className="flex items-center gap-2 hover:border p-2 rounded">
                            <img
                               src={In}
                               alt="logo linkedin"
@@ -69,7 +76,8 @@ function Footer() {
                       rounded-3xl border-4 border-pink-500" />
                </div>
             </aside>
-            <div className="flex w-full justify-between items-center 
+            <div 
+               className="flex w-full justify-between items-center 
             max-md:flex-col">
                <ul>
                   <li className="flex gap-2 items-center">
@@ -79,7 +87,8 @@ function Footer() {
                      className="max-sm:w-10 max-md:w-14 max-lg:w-16 w-20" />
                      <p className="max-sm:text-xs max-md:text-base max-lg:text-lg text-xl
                       text-pink-50 pointer-events-none font-poppins">
-                        Feito por <span className="font-bold">Mariana Antonia</span>
+                        Feito por 
+                        <span className="font-bold">Mariana Antonia</span>
                      </p>
                   </li>
                </ul>
