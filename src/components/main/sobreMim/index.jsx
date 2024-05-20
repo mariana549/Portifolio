@@ -13,6 +13,7 @@ import { useContext } from 'react'
 import { ThemeContext } from '../../../Contexts/themeContext/theme-context'
 
 function SobreMim() {
+
    const { theme } = useContext(ThemeContext)
 
    return (
@@ -24,26 +25,32 @@ function SobreMim() {
       >
          <Container>
             <div className="flex flex-col items-center 
-            max-sm:py-7 py-12 max-sm:gap-2 gap-4">
+            max-md:py-7 py-12 max-md:gap-2 gap-4">
                <h1
-                  className="max-sm:text-3xl text-5xl shinning-2 div1 mb-4 font-poppins"
+                  className="max-sm:text-3xl max-lg:text-4xl text-5xl shinning-2 div1 mb-4 font-poppins"
                   style={{ color: theme.color }}>
-                     Sobre mim
+                  Sobre mim
                </h1>
                <p
-                  className="max-sm:text-sm text-lg font-medium font-poppins"
-                  style={{ color: theme.color2 }}>Eu estudo programação desde o ano passado, estudei por um tempo no inicio do ano mas tive que parar. quando foi em outubro eu iniciei no curso da devquest e desde lá estudos constantemente todos os dias.</p>
+                  className="max-sm:text-sm max-lg:text-base text-lg font-medium font-poppins"
+                  style={{ color: theme.color2 }}>
+                     Eu estudo programação desde o ano passado, estudei por um tempo no inicio do ano mas tive que parar. quando foi em outubro eu iniciei no curso da devquest e desde lá estudos constantemente todos os dias.
+               </p>
                <p
-                  className="max-sm:text-sm text-lg font-medium font-poppins"
-                  style={{ color: theme.color2 }}>Depois que entrei para devquest fui influenciada a mecher também com meu linkedin, que eu já possuia desde 2022, mas, eu nunca tinha postado nada. Fiquei meio aprenciva pois não sabia o que poderia postar, então comecei seguindo um monte de programadores e nisso fui tendo ideias. começei a posta em novembro lá algumas coisas e de lá para ca eu conquistei meu 7k de seguidores.</p>
+                  className="max-sm:text-sm max-lg:text-base text-lg font-medium font-poppins"
+                  style={{ color: theme.color2 }}>
+                     Depois que entrei para devquest fui influenciada a mecher também com meu linkedin, que eu já possuia desde 2022, mas, eu nunca tinha postado nada. Fiquei meio aprenciva pois não sabia o que poderia postar, então comecei seguindo um monte de programadores e nisso fui tendo ideias. começei a posta em novembro lá algumas coisas e de lá para ca eu conquistei meu 7k de seguidores.
+               </p>
                <p
-                  className="max-sm:text-sm text-lg font-medium font-poppins"
-                  style={{ color: theme.color2 }}>Meu processo até aqui vem sido interresante pois cada vez mais me interesso pela area e me vejo trabalhando nela futuramente. Eu realmente tenho uma facilidade com programação e quero cada vez mais me aprofundar na area.</p>
+                  className="max-sm:text-sm max-lg:text-base text-lg font-medium font-poppins"
+                  style={{ color: theme.color2 }}>
+                     Meu processo até aqui vem sido interresante pois cada vez mais me interesso pela area e me vejo trabalhando nela futuramente. Eu realmente tenho uma facilidade com programação e quero cada vez mais me aprofundar na area.
+               </p>
             </div>
             <div className="flex flex-col items-center py-12
-            max-sm:gap-2 gap-4">
+            max-md:gap-2 gap-4">
                <h2
-                  className="max-sm:text-2xl text-4xl shinning-2 div1 mb-4 font-poppins"
+                  className="max-sm:text-2xl max-lg:text-3xl text-4xl shinning-2 div1 mb-4 font-poppins"
                   style={{ color: theme.color }}>
                      Tecnologias
                </h2>
@@ -52,37 +59,37 @@ function SobreMim() {
                      <img
                         src={js}
                         alt="logo"
-                        className="max-sm:w-14 w-20 max-sm:rounded-lg rounded-2xl" />
+                        className="max-sm:w-14 max-lg:w-16 w-20 max-md:rounded-lg rounded-2xl" />
                   </li>
                   <li className="p-3 bg-black border-2 border-pink-600 rounded-2xl flex items-center">
                      <img
                         src={html}
                         alt="logo"
-                        className="max-sm:w-14 w-20" />
+                        className="max-sm:w-14 max-lg:w-16 w-20" />
                   </li>
                   <li className="p-3 bg-black border-2 border-pink-600 rounded-2xl flex items-center">
                      <img
                         src={css}
                         alt="logo"
-                        className="max-sm:w-14 w-20" />
+                        className="max-sm:w-14 max-lg:w-16 w-20" />
                   </li>
                   <li className="p-3 bg-black border-2 border-pink-600 rounded-2xl flex items-center">
                      <img
                         src={react}
                         alt="logo"
-                        className="max-sm:w-14 w-20" />
+                        className="max-sm:w-14 max-lg:w-16 w-20" />
                   </li>
                   <li className="p-3 bg-black border-2 border-pink-600 rounded-2xl flex items-center">
                      <img
                         src={figma}
                         alt="logo"
-                        className="max-sm:w-14 w-20" />
+                        className="max-sm:w-14 max-lg:w-16 w-20" />
                   </li>
                   <li className="p-3 bg-black border-2 border-pink-600 rounded-2xl flex items-center">
                      <img
                         src={git}
                         alt="logo"
-                        className="max-sm:w-14 w-20" />
+                        className="max-sm:w-14 max-lg:w-16 w-20" />
                   </li>
                </ul>
             </div>

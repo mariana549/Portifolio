@@ -5,6 +5,7 @@ import css from '../../../assets/images/css-3.png'
 import PropTypes from "prop-types"
 
 function Projetos({ name, homepage, deploy, linguagem }) {
+
    const imgs = {
       JavaScript: javascript,
       CSS: css,
@@ -15,19 +16,19 @@ function Projetos({ name, homepage, deploy, linguagem }) {
 
    return (
       <li
-         className="max-sm:w-96 w-[500px] min-h-[300px] 
+         className="max-md:w-96 w-[500px] min-h-[300px] 
          rounded duration-300 ease-in-out hover:scale-105 list-none flex flex-col items-center justify-center"
       >
          <div className="p-5 flex flex-col items-center justify-between gap-3">
             <iframe
                src={homepage}
                title={name}
-               className="max-sm:w-80 w-[400px] max-sm:h-56 h-[300px] bg-white rounded-lg border-2 border-pink-500"
+               className="max-md:w-80 w-[400px] max-md:h-56 h-[300px] bg-white rounded-lg border-2 border-pink-500"
                style={{ backgroundSize: "cover" }}
                scrolling="no"
                sandbox="allow-scripts allow-same-origin allow-presentation"
             />
-            <h1 className="max-sm:text-sm text-lg
+            <h1 className="max-md:text-sm text-lg
              text-pink-500 font-semibold pb-3 font-poppins">
                {name}
             </h1>

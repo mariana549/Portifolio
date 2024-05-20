@@ -71,7 +71,7 @@ function Main() {
           ref={carossel}
         >
           <h1
-            className="max-sm:text-3xl text-5xl 
+            className="max-sm:text-3xl max-md:text-4xl text-5xl 
             shinning-2 div1 mb-5 font-poppins"
             id="projetos"
             style={{ color: theme.color }}>
@@ -84,7 +84,7 @@ function Main() {
             dragConstraints={{ left: -Width, right: Width }}
           >
             {carregando ?
-              <div className="text-pink-500 max-sm:text-lg text-2xl font-bold border-2 p-2 font-poppins">Carregando....</div>
+              <div className="text-pink-500 max-md:text-lg text-2xl font-bold border-2 p-2 font-poppins">Carregando....</div>
               : repositorios
                 .filter(e => (projetos.map(element => element.nome).includes(e.name)))
                 .map((repo, i) => (
