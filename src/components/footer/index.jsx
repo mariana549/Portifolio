@@ -62,10 +62,10 @@ function Footer() {
                         </li>
                      </ul>
                   </aside>
-                  <img 
-                  src={mari2} 
-                  alt="mariana imagem2" 
-                  className="max-sm:w-44 w-64 rounded-3xl border-4 border-pink-500" />
+                  <img
+                     src={mari2}
+                     alt="mariana imagem2"
+                     className="max-sm:w-44 w-64 rounded-3xl border-4 border-pink-500" />
                </div>
             </aside>
             <div className="flex w-full justify-between items-center 
@@ -87,7 +87,12 @@ function Footer() {
                         alt="logo home"
                         className="max-sm:w-3 w-5"
                      />
-                     <button type="button" onClick={handleSubir} className="font-poppins">Subir</button>
+                     <button
+                        type="button"
+                        onClick={handleSubir}
+                        className="font-poppins">
+                        Subir
+                     </button>
                   </li>
                </NavBar>
             </div>

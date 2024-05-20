@@ -28,27 +28,29 @@ function Main() {
   return (
     <main>
       <section
-        className=" flex flex-col justify-center"
+        className="max-sm:h-[450px] flex flex-col justify-center"
         style={{ background: theme.bgInicio }}>
         <Container>
-          <div className="flex gap-4 justify-between items-center">
+          <div className="max-sm:flex-col justify-between flex gap-4 items-center">
             <div>
-              <p
-                className="text-3xl font-poppins"
+              <p 
+                className="max-sm:text-xl text-3xl max-sm:text-center
+                font-poppins"
                 style={{ color: theme.color }}>
-                Seja Bem vindo(a), eu sou a
+                  Seja Bem vindo(a), eu sou a
               </p>
               <a href="https://git.io/typing-svg">
                 <img
-                  src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=60&pause=1000&color=EC4899&background=80808000&vCenter=true&random=false&width=800&height=70&lines=Mariana+Ant%C3%B4nia"
+                  src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=60&pause=1000&color=EC4899&background=80808000&vCenter=true&random=false&width=550&height=70&lines=Mariana+Ant%C3%B4nia"
                   alt="Typing SVG"
-                  className="py-4"
+                  className="max-sm:py-2 py-4 max-sm:w-72 max-sm:m-auto"
                 />
               </a>
               <p
-                className="text-4xl font-semibold div1 shinning-3 font-poppins"
+                className="max-sm:text-2xl text-4xl max-sm:text-center
+                 font-semibold div1 shinning-3 font-poppins"
                 style={{ color: theme.color }}>
-                Desenvolvedora Frontend
+                  Desenvolvedora Frontend
               </p>
             </div>
             <img src={mari1} alt="foto mariana" className="w-[38%] rounded-full border-4 border-pink-400 float-animation" />
@@ -65,7 +67,7 @@ function Main() {
         style={{ background: theme.bgProjetos }}
       >
         <div
-          className="flex flex-col items-center p-12 gap-4 w-full overflow-hidden"
+          className="w-full flex flex-col items-center p-12 gap-4 overflow-hidden"
           ref={carossel}
         >
           <h1

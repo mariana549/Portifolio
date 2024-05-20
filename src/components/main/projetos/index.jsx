@@ -27,7 +27,7 @@ function Projetos({ name, homepage, deploy, linguagem }) {
                scrolling="no"
                sandbox="allow-scripts allow-same-origin allow-presentation"
             />
-            <h1 className="max-sm:text-base text-lg
+            <h1 className="max-sm:text-sm text-lg
              text-pink-500 font-semibold pb-3 font-poppins">
                {name}
             </h1>
