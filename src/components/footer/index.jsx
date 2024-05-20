@@ -81,7 +81,7 @@ function Footer() {
                </ul>
                <NavBar>
                   <li
-                     className="max-sm:text-xs text-xl p-2 hover:bg-pink-500 rounded-lg flex gap-2 items-center transition-[0.5s] ease-in-out hover:-translate-y-1 hover:scale-110">
+                     className="max-sm:text-xs max-md:text-sm max-xl:text-base text-xl p-2 hover:bg-pink-500 rounded-lg flex gap-2 items-center transition-[0.5s] ease-in-out hover:-translate-y-1 hover:scale-110">
                      <img
                         src={home}
                         alt="logo home"
