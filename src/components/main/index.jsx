@@ -28,7 +28,7 @@ function Main() {
   return (
     <main>
       <section
-        className="max-sm:h-[500px] max-md:h-[600px] flex flex-col justify-center"
+        className="max-sm:h-[500px] max-lg:h-[600px] flex flex-col justify-center"
         style={{ background: theme.bgInicio }}>
         <Container>
           <div className="max-md:flex-col justify-between flex gap-4 items-center">
@@ -71,7 +71,7 @@ function Main() {
           ref={carossel}
         >
           <h1
-            className="max-sm:text-3xl max-md:text-4xl text-5xl 
+            className="max-sm:text-3xl max-lg:text-4xl text-5xl 
             shinning-2 div1 mb-5 font-poppins"
             id="projetos"
             style={{ color: theme.color }}>
@@ -84,7 +84,7 @@ function Main() {
             dragConstraints={{ left: -Width, right: Width }}
           >
             {carregando ?
-              <div className="text-pink-500 max-md:text-lg text-2xl font-bold border-2 p-2 font-poppins">Carregando....</div>
+              <div className="text-pink-500 max-md:text-lg max-lg:text-xl text-2xl font-bold border-2 p-2 font-poppins">Carregando....</div>
               : repositorios
                 .filter(e => (projetos.map(element => element.nome).includes(e.name)))
                 .map((repo, i) => (

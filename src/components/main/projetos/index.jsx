@@ -16,19 +16,20 @@ function Projetos({ name, homepage, deploy, linguagem }) {
 
    return (
       <li
-         className="max-md:w-96 w-[500px] min-h-[300px] 
+         className="max-md:w-96 max-lg:w-[450px] w-[500px] min-h-[300px] 
          rounded duration-300 ease-in-out hover:scale-105 list-none flex flex-col items-center justify-center"
       >
          <div className="p-5 flex flex-col items-center justify-between gap-3">
             <iframe
                src={homepage}
                title={name}
-               className="max-md:w-80 w-[400px] max-md:h-56 h-[300px] bg-white rounded-lg border-2 border-pink-500"
+               className="max-md:w-80 max-lg:w-96 w-[400px] max-md:h-56 max-lg:h-64 h-[300px] 
+               bg-white rounded-lg border-2 border-pink-500"
                style={{ backgroundSize: "cover" }}
                scrolling="no"
                sandbox="allow-scripts allow-same-origin allow-presentation"
             />
-            <h1 className="max-md:text-sm text-lg
+            <h1 className="max-md:text-sm max-lg:text-base text-lg
              text-pink-500 font-semibold pb-3 font-poppins">
                {name}
             </h1>
@@ -38,7 +39,7 @@ function Projetos({ name, homepage, deploy, linguagem }) {
                   <img
                      src={imgLiguagem}
                      alt={linguagem}
-                     className="max-sm:w-7 w-11 max-sm:rounded-none rounded-lg"
+                     className="max-sm:w-7 max-md:w-8 max-lg:w-10 w-11 max-sm:rounded-none max-md:rounded-sm max-lg:rounded rounded-md"
                   />
                </li>
                <li className="list-none">
