@@ -34,17 +34,12 @@ function SobreMim() {
                <p
                   className="max-sm:text-sm max-lg:text-base text-lg font-medium font-poppins"
                   style={{ color: theme.color2 }}>
-                     Eu estudo programação desde o ano passado, estudei por um tempo no inicio do ano mas tive que parar. quando foi em outubro eu iniciei no curso da devquest e desde lá estudos constantemente todos os dias.
+                     Em outubro de 2023, iniciei o curso da DevQuest e desde então, tenho me dedicado diariamente aos estudos. Ao entrar para a DevQuest, fui inspirada a também investir no meu perfil do LinkedIn, que já possuía desde 2022, mas nunca havia postado nada. No começo, senti um pouco de apreensão, sem saber exatamente o que compartilhar. Comecei seguindo diversos programadores e, com o tempo, as ideias foram surgindo. Em novembro, comecei a compartilhar conteúdo lá e, desde então, conquistei 7 mil seguidores.
                </p>
                <p
                   className="max-sm:text-sm max-lg:text-base text-lg font-medium font-poppins"
                   style={{ color: theme.color2 }}>
-                     Depois que entrei para devquest fui influenciada a mecher também com meu linkedin, que eu já possuia desde 2022, mas, eu nunca tinha postado nada. Fiquei meio aprenciva pois não sabia o que poderia postar, então comecei seguindo um monte de programadores e nisso fui tendo ideias. começei a posta em novembro lá algumas coisas e de lá para ca eu conquistei meu 7k de seguidores.
-               </p>
-               <p
-                  className="max-sm:text-sm max-lg:text-base text-lg font-medium font-poppins"
-                  style={{ color: theme.color2 }}>
-                     Meu processo até aqui vem sido interresante pois cada vez mais me interesso pela area e me vejo trabalhando nela futuramente. Eu realmente tenho uma facilidade com programação e quero cada vez mais me aprofundar na area.
+                     Minha jornada até aqui tem sido fascinante, e a cada dia, meu interesse pela área de programação cresce. Visualizo-me trabalhando nesse campo no futuro. Tenho facilidade com programação e estou determinada a me aprofundar ainda mais.               
                </p>
             </div>
             <div className="flex flex-col items-center py-12
