@@ -43,7 +43,7 @@ function Footer() {
                               rel="noopener noreferrer"
                               className="max-sm:text-[10px] text-base
                                text-pink-100 font-bold font-poppins">
-                              Linkedin
+                                 Linkedin
                            </a>
                         </li>
                         <li className="flex items-center gap-2 hover:border p-2 rounded">
@@ -56,8 +56,8 @@ function Footer() {
                               target="_blank"
                               rel="noopener noreferrer"
                               className="max-sm:text-[10px] text-base
-                               text-pink-100 font-bold font-poppins">
-                              WhatsApp
+                              text-pink-100 font-bold font-poppins">
+                                WhatsApp
                            </a>
                         </li>
                      </ul>
@@ -91,7 +91,7 @@ function Footer() {
                         type="button"
                         onClick={handleSubir}
                         className="font-poppins">
-                        Subir
+                           Subir
                      </button>
                   </li>
                </NavBar>
