@@ -1,7 +1,8 @@
 import { useState } from "react"
-import { themes } from "../themes"
+import { themes } from "../../themes"
 import { ThemeContext } from "./theme-context"
 import PropTypes from "prop-types"
+
 
 export const ThemeProvider = ({ children }) => {
    const [theme, setTheme] = useState(themes.light)
@@ -14,6 +15,6 @@ export const ThemeProvider = ({ children }) => {
 
 }
 
-ThemeProvider.propsTypes = {
+ThemeProvider.propTypes = {
    children: PropTypes.any.isRequired
 }

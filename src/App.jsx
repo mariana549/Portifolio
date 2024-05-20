@@ -1,5 +1,5 @@
-import { ThemeProvider } from './Context/themeProvider'
-import Home from './pages/home'
+import { ThemeProvider } from './Contexts/themeContext/themeProvider'
+import Home from './page/home'
 
 function App() {
   return (

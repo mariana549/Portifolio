@@ -3,7 +3,7 @@ import NavBar from "../navBar"
 
 import logo from "../../assets/images/M.png"
 import contato from "../../assets/images/contato.png"
-import { ThemeTogglerButton } from "../../togglerButton/themeTogglerButton."
+import { ThemeTogglerButton } from "../togglerButton/themeTogglerButton"
 
 
 function Header() {

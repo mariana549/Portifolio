@@ -1,7 +1,7 @@
 import axios from "axios"
 import { useEffect, useState } from "react"
 import Main from "../main"
-import AppProvider from "../../Context/provider"
+import AppProvider from "../../Contexts/dadosContext/provider";
 
 function GetData() {
    const [getRepos, setRepos] = useState([])

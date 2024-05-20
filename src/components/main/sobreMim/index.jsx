@@ -10,7 +10,7 @@ import figma from '../../../assets/images/figma.png'
 import { handleClick } from '../../pegarId'
 
 import { useContext } from 'react'
-import { ThemeContext } from '../../../Context/theme-context'
+import { ThemeContext } from '../../../Contexts/themeContext/theme-context'
 
 function SobreMim() {
    const { theme } = useContext(ThemeContext)

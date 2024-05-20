@@ -1,8 +1,8 @@
 import "../main/main.css";
 
 import { useContext, useEffect, useRef, useState } from "react";
-import { ThemeContext } from "../../Context/theme-context";
-import Context from "../../Context/context";
+import { ThemeContext } from "../../Contexts/themeContext/theme-context";
+import Context from "../../Contexts/dadosContext/context";
 import { motion } from "framer-motion";
 
 import Container from "../container";
