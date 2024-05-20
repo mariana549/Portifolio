@@ -28,13 +28,13 @@ function Main() {
   return (
     <main>
       <section
-        className="max-sm:h-[450px] max-md:h-[600px] flex flex-col justify-center"
+        className="max-sm:h-[500px] max-md:h-[600px] flex flex-col justify-center"
         style={{ background: theme.bgInicio }}>
         <Container>
           <div className="max-md:flex-col justify-between flex gap-4 items-center">
             <div>
               <p 
-                className="max-sm:text-xl max-md:text-2xl text-3xl max-md:text-center
+                className="max-sm:text-xl max-lg:text-2xl text-3xl max-md:text-center
                 font-poppins"
                 style={{ color: theme.color }}>
                   Seja Bem vindo(a), eu sou a
@@ -43,17 +43,17 @@ function Main() {
                 <img
                   src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=60&pause=1000&color=EC4899&background=80808000&vCenter=true&random=false&width=550&height=70&lines=Mariana+Ant%C3%B4nia"
                   alt="Typing SVG"
-                  className="max-sm:py-2 py-4 max-sm:w-72 max-md:w-96 max-md:m-auto"
+                  className="max-sm:py-2 py-4 max-sm:w-72 max-lg:w-96  max-md:m-auto"
                 />
               </a>
               <p
-                className="max-sm:text-2xl max-md:text-3xl text-4xl max-md:text-center
+                className="max-sm:text-2xl max-lg:text-3xl text-4xl max-md:text-center
                  font-semibold div1 shinning-3 font-poppins"
                 style={{ color: theme.color }}>
                   Desenvolvedora Frontend
               </p>
             </div>
-            <img src={mari1} alt="foto mariana" className="w-[38%] rounded-full border-4 border-pink-400 float-animation" />
+            <img src={mari1} alt="foto mariana" className="w-[38%] rounded-full border-4 border-pink-400 float-animation m-2" />
           </div>
         </Container>
       </section>
