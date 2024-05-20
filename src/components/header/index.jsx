@@ -24,7 +24,7 @@ function Header() {
                      <img
                         src={contato}
                         alt="contato"
-                        className="max-sm:w-4 w-6"
+                        className="max-sm:w-4 max-lg:w-5 w-6"
                      />
                      <a href={`#contato`} className="font-poppins">
                         Contato

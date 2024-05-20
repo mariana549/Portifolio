@@ -19,15 +19,15 @@ function Footer() {
       <footer className="bg-black">
          <Container>
             <aside className="py-12" id="contato" onClick={handleClick}>
-               <h1 className="max-sm:text-3xl text-4xl 
+               <h1 className="max-sm:text-2xl max-lg:text-3xl text-4xl 
             text-pink-500 font-bold pb-9 text-center font-poppins">
                   Contato
                </h1>
-               <div className="max-sm:flex-col 
+               <div className="max-md:flex-col 
                               flex items-center justify-between gap-2">
-                  <aside className="max-sm:items-center items-start
+                  <aside className="max-md:items-center items-start
                                     flex flex-col">
-                     <p className="max-sm:text-lg text-2xl
+                     <p className="max-sm:text-lg max-lg:text-xl text-2xl
                                  text-pink-500 font-medium pointer-events-none font-poppins">
                         Entre em contato comigo por:
                      </p>
@@ -36,12 +36,12 @@ function Footer() {
                            <img
                               src={In}
                               alt="logo linkedin"
-                              className="max-sm:w-3 max-sm:h-3 w-5 h-5" />
+                              className="max-sm:w-3 max-lg:w-4 w-5 max-sm:h-3 max-lg:h-4 h-5" />
                            <a
                               href="http://www.linkedin.com/in/mariana-a-6694b5245/"
                               target="_blank"
                               rel="noopener noreferrer"
-                              className="max-sm:text-[10px] text-base
+                              className="max-sm:text-[10px] max-md:text-xs max-lg:text-sm text-base
                                text-pink-100 font-bold font-poppins">
                                  Linkedin
                            </a>
@@ -50,12 +50,12 @@ function Footer() {
                            <img
                               src={whats}
                               alt="logo WhatsApp"
-                              className="max-sm:w-3 max-sm:h-3 w-5 h-5" />
+                              className="max-sm:w-3 max-lg:w-4 w-5 max-sm:h-3 max-lg:h-4 h-5" />
                            <a
                               href="https://contate.me/marianaantonia"
                               target="_blank"
                               rel="noopener noreferrer"
-                              className="max-sm:text-[10px] text-base
+                              className="max-sm:text-[10px] max-md:text-xs max-lg:text-sm text-base
                               text-pink-100 font-bold font-poppins">
                                 WhatsApp
                            </a>
@@ -65,15 +65,19 @@ function Footer() {
                   <img
                      src={mari2}
                      alt="mariana imagem2"
-                     className="max-sm:w-44 w-64 rounded-3xl border-4 border-pink-500" />
+                     className="max-sm:w-44 max-md:w-48 max-lg:w-52 w-64
+                      rounded-3xl border-4 border-pink-500" />
                </div>
             </aside>
             <div className="flex w-full justify-between items-center 
-            max-sm:flex-col">
+            max-md:flex-col">
                <ul>
                   <li className="flex gap-2 items-center">
-                     <img src={logo2} alt="logo" className="max-sm:w-10 w-20" />
-                     <p className="max-sm:text-xs text-xl
+                     <img 
+                     src={logo2} 
+                     alt="logo" 
+                     className="max-sm:w-10 max-md:w-14 max-lg:w-16 w-20" />
+                     <p className="max-sm:text-xs max-md:text-base max-lg:text-lg text-xl
                       text-pink-50 pointer-events-none font-poppins">
                         Feito por <span className="font-bold">Mariana Antonia</span>
                      </p>
@@ -85,7 +89,7 @@ function Footer() {
                      <img
                         src={home}
                         alt="logo home"
-                        className="max-sm:w-3 w-5"
+                        className="max-sm:w-3 max-lg:w-4 w-5"
                      />
                      <button
                         type="button"

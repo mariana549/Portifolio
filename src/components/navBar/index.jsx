@@ -12,7 +12,7 @@ function NavBar({children}) {
                <img
                   src={projetos}
                   alt="icone projetos"
-                  className="max-sm:w-3 max-lg w-5"
+                  className="max-sm:w-3 max-lg:w-4 w-5"
                />
                <a href={`#projeto`} className="font-poppins">
                   Projetos
@@ -23,7 +23,7 @@ function NavBar({children}) {
                <img
                   src={user}
                   alt="user"
-                  className="max-sm:w-3 w-5"
+                  className="max-sm:w-3 max-lg:w-4 w-5"
                />
                <a href={`#sobremim`} className="font-poppins">
                   Sobre mim
