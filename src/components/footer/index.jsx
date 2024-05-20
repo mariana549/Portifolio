@@ -62,7 +62,10 @@ function Footer() {
                         </li>
                      </ul>
                   </aside>
-                  <img src={mari2} alt="mariana imagem2" className="w-64 rounded-3xl border-4 border-pink-500" />
+                  <img 
+                  src={mari2} 
+                  alt="mariana imagem2" 
+                  className="max-sm:w-44 w-64 rounded-3xl border-4 border-pink-500" />
                </div>
             </aside>
             <div className="flex w-full justify-between items-center 
