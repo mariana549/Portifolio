@@ -9,7 +9,8 @@ export const ThemeTogglerButton = () => {
       <button
          type="button"
          onClick={() => setTheme(theme === themes.light ? themes.dark : themes.light)}
-         className="rounded-lg p-3 ml-3 border border-pink-600"
+         className="rounded-lg p-3 ml-3 border border-pink-600
+         max-sm:text-xs text-base"
       >
          {theme === themes.light ? "Light" : "Dark" }
       </button>

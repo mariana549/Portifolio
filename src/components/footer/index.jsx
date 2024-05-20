@@ -37,22 +37,24 @@ function Footer() {
               <img src={mari2} alt="mariana imagem2" className="w-64 rounded-3xl border-4 border-pink-500" />
             </div>
           </aside>
-            <div className="flex w-full justify-between items-center">
+            <div className="flex w-full justify-between items-center 
+            max-sm:flex-col">
                <ul>
                   <li className="flex gap-2 items-center">
-                     <img src={logo2} alt="logo" className="w-20" />
-                     <p className="text-pink-50 text-xl pointer-events-none font-poppins">
+                     <img src={logo2} alt="logo" className="max-sm:w-10 w-20" />
+                     <p className="max-sm:text-xs text-xl
+                      text-pink-50 pointer-events-none font-poppins">
                         Feito por <span className="font-bold">Mariana Antonia</span>
                      </p>
                   </li>
                </ul>
                <NavBar>
                   <li
-                     className="text-xl p-2 hover:bg-pink-500 rounded-lg flex gap-2 items-center transition-[0.5s] ease-in-out hover:-translate-y-1 hover:scale-110">
+                     className="max-sm:text-xs text-xl p-2 hover:bg-pink-500 rounded-lg flex gap-2 items-center transition-[0.5s] ease-in-out hover:-translate-y-1 hover:scale-110">
                      <img
                         src={home}
                         alt="logo home"
-                        className="w-5"
+                        className="max-sm:w-3 w-5"
                      />
                      <button type="button" onClick={handleSubir} className="font-poppins">Subir</button>
                   </li>
